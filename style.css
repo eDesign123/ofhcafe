@@ -1,0 +1,149 @@
+@charset "UFT-8";
+
+/*共通部分
+------------------------------------*/
+html {
+  font-size: 100%;
+}
+body {
+  font-family: 'Arima','Zen Maru Gothic', sans-serif;
+  line-height: 1.7;
+  color: #432;
+  background-color: #fff6e4;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  min-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/* HEADER
+------------------------------------*/
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 85px;
+  margin-top: 20px;
+
+}
+
+.info {
+  font-size: 20px;
+  color: #603813;
+  margin-top: 30px;
+  margin-right: auto;
+}
+
+.info a {
+  color: #603813;
+}
+
+.info a:hover {
+  text-decoration: underline;
+  border-color: #E9C19C;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  list-style: none;
+  }
+
+.main-nav li {
+  padding-left:80px;
+}  
+
+.main-nav a {
+  color: #603813;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+  border-color: #E9C19C;
+  border-top: 5px;
+}
+
+/*top-mv
+--------------------------------------*/
+.top-mv {
+  width: auto;
+  height: 700px;
+}
+
+.main-img {
+  width: 1130px;
+  height: 570px;
+  margin-left: auto;
+}
+
+/* キャッチコピー */
+.box1 {
+  position: absolute;
+  top: 68%;
+  background-color: #603813;
+  opacity: .8;
+  width: 540px;
+  height: 270px;
+  text-align: left;
+  border-radius: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box1 p {
+  font-family: 'Zen Maru Gothic', sans-serif;
+  color: #fffcf6;
+  font-size: 40px;
+}
+
+/* 重要なお知らせ */
+.important {
+  background-color: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #d9d9d9;
+  border-radius: 50px;
+  height: 80px;
+  width: 1110px;
+  display: flex;
+  margin: auto;
+}
+
+.important h1{
+  background-color: #FBBEA4;
+  height: 33px;
+  width: 135px;
+  border-radius: 17px;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-left: 35px;
+  margin-top: 23px;
+}
+
+.important dd{
+  margin-top: 18px;
+}
+
+.important a{
+  font-size: 32px;
+  color: #603813;
+  font-weight: bold;
+  margin-left: 40px;
+}
+
